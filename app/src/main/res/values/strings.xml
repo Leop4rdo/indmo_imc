@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="imc_desc">Calcule o seu IMC \n(Indice de Massa Corporal)</string>
+</resources>
