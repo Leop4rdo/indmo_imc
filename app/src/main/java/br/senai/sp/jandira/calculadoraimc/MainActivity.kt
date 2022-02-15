@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
      */
     private fun buttonCalcularOnClick() {
 
-        if (!isCamposVazios(findViewById<EditText>(R.id.editAltura), findViewById<EditText>(R.id.editPeso))) {
+        if (!isCamposVazios(findViewById(R.id.editAltura), findViewById(R.id.editPeso))) {
 
             // recebendo valores:
             val altura = findViewById<EditText>(R.id.editAltura).text.toString().toDouble()
