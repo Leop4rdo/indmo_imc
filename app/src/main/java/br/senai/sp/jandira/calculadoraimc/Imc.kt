@@ -21,17 +21,17 @@ fun classificarIMC(imc : Double) : String {
     var categoria :String = ""
 
     if (imc < 18.5)
-        categoria = "abaixo do peso."
+        categoria = "Abaixo do peso."
     else if (imc < 25)
-        categoria = "com peso normal."
+        categoria = "Peso normal."
     else if (imc < 30)
-        categoria = "acima do peso."
+        categoria = "Acima do peso."
     else if (imc < 35)
-        categoria = "com obesidade grau I."
+        categoria = "Obesidade grau I."
     else if (imc < 40)
-        categoria = "com obesidade grau II."
+        categoria = "Obesidade grau II."
     else if (imc >=40)
-        categoria = "com obesidade morbida."
+        categoria = "Obesidade morbida."
     else
         categoria = "ERRO: Impossivel classificar IMC!"
 
